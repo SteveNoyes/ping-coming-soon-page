@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages](https://pages.github.com/)
+- Solution URL: [GitHub Repo](https://github.com/SteveNoyes/ping-coming-soon-page)
+- Live Site URL: [GitHub Pages](https://stevenoyes.github.io/ping-coming-soon-page/)
 
 ## My process
 
