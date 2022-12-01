@@ -4,28 +4,22 @@
 */
 
 /* Colors */
-
+:root {
 /* Primary */
-
-/* - Blue: hsl(223, 87%, 63%) */
-
+  --blue: hsl(223, 87%, 63%);
 /* Secondary */
-
-/* - Pale Blue: hsl(223, 100%, 88%)
-- Light Red: hsl(354, 100%, 66%) */
-
+  --pale-blue: hsl(223, 100%, 88%);
+  --light-red: hsl(354, 100%, 66%);
 /* Neutral */
-
-/* - Gray: hsl(0, 0%, 59%)
-- Very Dark Blue: hsl(209, 33%, 12%) */
-
-/* Typography */
-
-/* Body Copy */
-
-/* - Font size: 20px */
+  --gray: hsl(0, 0%, 59%);
+  --very-dark-blue: hsl(209, 33%, 12%);
+}
 
 /*
-- Family: [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin)
-- Weights: 300, 600, 700 
+- font weights: 300, 600, 700 
 */
+
+body {
+  font-size: 20px;
+  font-family: 'Libre Franklin', sans-serif, monospace;
+}
