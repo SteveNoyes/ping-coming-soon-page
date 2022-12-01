@@ -22,4 +22,28 @@
 body {
   font-size: 20px;
   font-family: 'Libre Franklin', sans-serif, monospace;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  color: var(--very-dark-blue);
+  background-color: white;
+
+}
+
+.emailInput {
+  border-radius: 25px;
+  border: 1px solid var(--pale-blue);
+}
+
+.emailInput::placeholder {
+  color: var(--pale-blue);
+  opacity: .6; 
+}
+.emailInput:-ms-input-placeholder {
+  color: var(--pale-blue);
+}
+.emailInput::-ms-input-placeholder {
+  color: var(--pale-blue);
 }

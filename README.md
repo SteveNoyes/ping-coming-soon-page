@@ -48,7 +48,6 @@ Users should be able to:
 
 ### Featured Section
 
-
 ```html
 ```
 
@@ -60,9 +59,9 @@ Users should be able to:
 
 ### Useful resources
 
-- [How to Center a Div](https://blog.devgenius.io/3-ways-to-center-a-div-with-css-3df9e66dbd42) - This helped me for XYZ reason. I really liked this pattern and will use it going forward. 
+- [changing input placeholder text color](https://www.w3schools.com/howto/howto_css_placeholder.asp) - Box shadow for button and div sections. 
 
-- [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - Box shadow for button and div sections. 
+- [text spacing](https://www.w3schools.com/css/css_text_spacing.asp) - Spacing for the top header was made easier with this.
 
 - [text spacing](https://www.w3schools.com/css/css_text_spacing.asp) - Spacing for the top header was made easier with this.
 
