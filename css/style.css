@@ -66,15 +66,38 @@ footer p {
 form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  width: 90%;
+  margin: auto;
 }
 
 form input {
   flex: 1;
+  padding: 1rem 0rem 1rem 2rem;
+  margin-bottom: 1rem;
 }
+
+form input:focus {
+  outline: none;
+}
+
+#inputError {
+  border: 1px solid red;
+}
+
 
 form button {
   flex: 1;
+  padding: 1rem;
+  border-radius: 25px;
+  border: none;
+  background-color: var(--blue);
+  color: white;
+  margin-bottom: 4rem;
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: var(--pale-blue);
 }
 
 .emailInput {
@@ -93,3 +116,36 @@ form button {
 }
 
 /* Img */
+
+.dashboardImg {
+  width: 100%;
+  margin-bottom: 7rem;
+}
+
+i {
+  border: 1px solid var(--pale-blue);
+  border-radius: 50%;
+  padding: .4rem;
+  color: var(--blue);
+  margin-right: 1rem;
+}
+
+i:hover {
+  background-color: var(--blue);
+  color: white;
+  border: 1px solid var(--blue);
+  cursor: pointer;
+}
+
+.iconPadding {
+  padding: .4rem .6rem;
+}
+
+.attribution {
+  color: var(--gray);
+}
+
+.attribution a {
+  text-decoration: none;
+  color: var(--gray);
+}

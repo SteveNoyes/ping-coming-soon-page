@@ -59,9 +59,9 @@ Users should be able to:
 
 ### Useful resources
 
-- [changing input placeholder text color](https://www.w3schools.com/howto/howto_css_placeholder.asp) - Box shadow for button and div sections. 
+- [changing input placeholder text color](https://www.w3schools.com/howto/howto_css_placeholder.asp) - Spacing for the top header was made easier with this. 
 
-- [text spacing](https://www.w3schools.com/css/css_text_spacing.asp) - Spacing for the top header was made easier with this.
+- [change border color of input on focus](https://stackoverflow.com/questions/16156594/how-to-change-border-color-of-textarea-on-focus) - Spacing for the top header was made easier with this.
 
 - [text spacing](https://www.w3schools.com/css/css_text_spacing.asp) - Spacing for the top header was made easier with this.
 
