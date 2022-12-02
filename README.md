@@ -65,6 +65,8 @@ Users should be able to:
 
 - [email validation](w3resource.com/javascript/form/email-validation.php) - Spacing for the top header was made easier with this.
 
+- [error display text](https://code-boxx.com/show-error-messages-html-forms/) - Spacing for the top header was made easier with this.
+
 ## Author
 
 - Website - [Portfolio](https://www.stevenmnoyes.com)
