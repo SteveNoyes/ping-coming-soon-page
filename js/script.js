@@ -1,5 +1,3 @@
-
-
 function ValidateEmail(inputText) {
   // regex pattern
   var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
