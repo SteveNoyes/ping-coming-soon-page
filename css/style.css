@@ -19,6 +19,8 @@
 - font weights: 300, 600, 700 
 */
 
+/* General */
+
 body {
   font-size: 20px;
   font-family: 'Libre Franklin', sans-serif, monospace;
@@ -29,14 +31,56 @@ main {
   text-align: center;
   color: var(--very-dark-blue);
   background-color: white;
+  width: 80%;
+  margin: auto;
+}
 
+.pingLogo {
+  padding: 7rem 5rem 4rem;
+}
+
+/* Font */
+
+h1 {
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--gray);
+}
+
+h1 span {
+  font-weight: 700;
+  color: var(--very-dark-blue);
+}
+
+p {
+  font-size: 15px;
+  padding: 2rem 0;
+}
+
+footer p {
+  color: var(--gray);
+}
+
+/* Form */
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form input {
+  flex: 1;
+}
+
+form button {
+  flex: 1;
 }
 
 .emailInput {
   border-radius: 25px;
   border: 1px solid var(--pale-blue);
 }
-
 .emailInput::placeholder {
   color: var(--pale-blue);
   opacity: .6; 
@@ -47,3 +91,5 @@ main {
 .emailInput::-ms-input-placeholder {
   color: var(--pale-blue);
 }
+
+/* Img */
