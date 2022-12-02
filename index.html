@@ -23,11 +23,12 @@
     <h1>We are launching <span>soon!</span></h1>
     <p>Subscribe and get notified</p>
     <form name="emailForm" action="#">
-      <input type="text" class="emailInput" name="emailInput" placeholder="Your email address ...">
+      <input type="text" class="emailInput" name="emailInput" id="femail" placeholder="Your email address ...">
+      <div id="errorDiv" class="emsg"></div>
       <button input type="submit" name="submit" value="Submit" onclick="ValidateEmail(document.emailForm.emailInput)">Notify Me</button>
     </form>
-  
-    <form onsubmit="return check()" novalidate>
+
+    <!-- <form onsubmit="return check()" novalidate>
       <label for="fname">Name</label>
       <input type="text" name="fname" id="fname" 
              required minlength="2" maxlength="8"/> 
@@ -39,9 +40,7 @@
       <div id="cnumber" class="emsg"></div>
      
       <input type="submit" value="Go!"/>
-    </form>
-
-
+    </form> -->
     <img src="./images/illustration-dashboard.png" alt="" class="dashboardImg">
     <div class="socials">
       <i class="fa-brands fa-facebook-f iconPadding"></i>
