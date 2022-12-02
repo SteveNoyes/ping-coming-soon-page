@@ -1,8 +1,3 @@
-/* 
-- Mobile: 375px
-- Desktop: 1440px 
-*/
-
 /* Colors */
 :root {
 /* Primary */
@@ -14,13 +9,10 @@
   --gray: hsl(0, 0%, 59%);
   --very-dark-blue: hsl(209, 33%, 12%);
 }
-
 /*
 - font weights: 300, 600, 700 
 */
-
 /* General */
-
 body {
   font-size: 20px;
   font-family: 'Libre Franklin', sans-serif, monospace;
@@ -40,7 +32,6 @@ main {
 }
 
 /* Font */
-
 h1 {
   font-weight: 300;
   font-size: 24px;
@@ -62,7 +53,6 @@ footer p {
 }
 
 /* Form */
-
 form {
   display: flex;
   flex-direction: column;
@@ -115,7 +105,6 @@ form button:hover {
 }
 
 /* Img */
-
 .dashboardImg {
   width: 100%;
   margin-bottom: 10rem;
@@ -153,6 +142,7 @@ i:hover {
   color: var(--gray);
 }
 
+/* Media Query */
 @media (min-width: 1440px) {
 
   h1 {
