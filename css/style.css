@@ -84,7 +84,6 @@ form input:focus {
   border: 1px solid red;
 }
 
-
 form button {
   flex: 1;
   padding: 1rem;
@@ -167,7 +166,6 @@ i:hover {
   
   form input {
     flex: .6;
-    
   }
   
   input.emailInput {
